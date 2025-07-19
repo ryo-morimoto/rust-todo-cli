@@ -6,6 +6,10 @@ authors = ["Your Name <your.email@example.com>"]
 description = "A simple TODO CLI application for learning Rust"
 license = "MIT"
 
+[[bin]]
+name = "rtodo"
+path = "src/main.rs"
+
 [dependencies]
 clap = { version = "4.5.41", features = ["derive"] }
 serde = { version = "1.0.217", features = ["derive"] }
